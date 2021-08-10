@@ -509,3 +509,86 @@
         align-items: center;
     }
 }
+
+/**********************************ESTILOS DE PAGINA NOVEDADES******************************************/
+
+.first-container{
+    background-image: url(/images/fondo.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: solid 20px #FF9000;
+    border-bottom: solid 20px #FC5656;
+}
+
+.container-wrapper{
+    display: flex;
+}
+
+.img-box{
+    margin: 1rem;
+    background-size: cover;
+    position: relative;
+    max-width: 500px;
+}
+
+.img-box img{
+    width: 100%;
+}
+
+.first-container .img-box img{
+    max-width: 300px;
+}
+
+.text-container{
+    margin: 2rem;
+    align-items: center;
+}
+
+.text-container h2{
+    border-bottom: 3px solid #FF9000;
+    margin-bottom: 1rem;
+}
+
+.text-container p{
+    text-align: justify;
+    margin-bottom: 1rem;
+}
+
+.btn-wpp, .btn-read{
+    background-color: #4286F4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.second-container, .third-container{
+    background-image: url(/images/fondo.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: solid 20px #FC5656;
+}
+
+.fourth-container{
+    background-image: url(/images/fondo.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (max-width: 980px) {
+    .second-container .img-box img{
+        margin-top: 10%;
+    }
+}
