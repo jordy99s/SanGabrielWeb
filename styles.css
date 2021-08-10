@@ -285,6 +285,102 @@
 
 /*CSS PARA SLIDESHOW*/
 
+.slide{
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    width: 50%;
+    height: 0;
+    padding-bottom: 30%;
+    background: #fff;
+    border: solid 10px #2c2c2c;
+}
+
+.slide-img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.slide-img img{
+    margin-left: 25%;
+    margin-top: 10%;
+    width: 50%;
+    height: 50%;
+}
+
+#i1, #i2, #i3, #i4, #i5, #i6{
+    display: none;
+}
+
+.pre, .nxt{
+    width: 12%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background: rgba(88, 88, 88, .4);
+    z-index: 99;
+    cursor: pointer;
+    text-align: center;
+}
+
+.pre .arrow, .nxt .arrow{
+    color: #FC5656;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 250%;
+}
+
+.pre{
+    left: 0;
+}
+
+.nxt{
+    right: 0;
+}
+
+.nav-dots{
+    width: 100%;
+    height: 11px;
+    bottom: 12%;
+    position: absolute;
+    text-align: center;
+    z-index: 99;
+}
+
+.dots{
+    top: -5px;
+    width: 18px;
+    height: 18px;
+    margin: 0 4px;
+    position: relative;
+    border-radius: 50%;
+    display: inline-block;
+    background: rgba(0, 0, 0, .6);
+    cursor: pointer;
+}
+
+.slide-img{
+    z-index: -1;
+}
+
+#i1:checked ~ #uno,
+#i2:checked ~ #dos,
+#i3:checked ~ #tres,
+#i4:checked ~ #cuatro,
+#i5:checked ~ #cinco,
+#i6:checked ~ #seis{
+    z-index: 9;
+}
+
+#i1:checked ~ .nav-dots #dot1,
+#i2:checked ~ .nav-dots #dot2,
+#i3:checked ~ .nav-dots #dot3,
+#i4:checked ~ .nav-dots #dot4,
+#i5:checked ~ .nav-dots #dot5,
+#i6:checked ~ .nav-dots #dot6{
+    background: #FC5656;
+}
 
 /*FOOTER*/
 .footer-container{
