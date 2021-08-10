@@ -257,9 +257,9 @@
     cursor: pointer;
 }
 
-@media screen and (max-width: 960px) {
-    .services{
-        height: 1600px;
+@media screen and (max-width: 1300px) {
+    .services-container{
+        grid-template-columns: 1fr 1fr;
     }
     .services h1{
         font-size: 2rem;
@@ -268,8 +268,8 @@
 }
 
 @media screen and (max-width: 480px) {
-    .services{
-        height: 1400px;
+    .services-container{
+        grid-template-columns: 1fr;
     }
     .services h1{
         font-size: 1.2rem;
@@ -288,11 +288,10 @@
     }
 }
 
-/*CSS PARA aSLIDESHOW*/
+/*CSS PARA SLIDESHOW*/
 
 
 /*FOOTER*/
-
 .footer-container{
     background-color: #292E49;
     padding: 1rem 0;
