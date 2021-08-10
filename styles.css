@@ -294,7 +294,7 @@
     height: 0;
     padding-bottom: 30%;
     background: #fff;
-    border: solid 10px #2c2c2c;
+    border: solid 10px #292E49;
 }
 
 .slide-img{
@@ -380,6 +380,20 @@
 #i5:checked ~ .nav-dots #dot5,
 #i6:checked ~ .nav-dots #dot6{
     background: #FC5656;
+}
+
+@media screen and (max-width: 580px){
+    .slide{
+        border: solid 5px #292E49;
+    }
+    .pre .arrow, .nxt .arrow{
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    .dots{
+        width: 10px;
+        height: 10px;
+    }
 }
 
 /*FOOTER*/
