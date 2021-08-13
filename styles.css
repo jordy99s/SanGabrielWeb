@@ -181,7 +181,7 @@
     position: relative;
     width: 100%;
     height: 100%;
-    background-image: url(/images/fondo.png);
+    background-image: url(images/fondo.png);
 }
 
 .main-container{
@@ -204,7 +204,7 @@
 /*SECCION DE SERVICIOS*/
 
 .services{
-    background-image: url(/images/fondo.png);
+    background-image: url(images/fondo.png);
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -519,7 +519,7 @@
 /**********************************ESTILOS DE PAGINA NOVEDADES******************************************/
 
 .first-container{
-    background-image: url(/images/fondo.png);
+    background-image: url(images/fondo.png);
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -577,7 +577,7 @@
 }
 
 .second-container, .third-container{
-    background-image: url(/images/fondo.png);
+    background-image: url(images/fondo.png);
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -586,7 +586,7 @@
 }
 
 .fourth-container{
-    background-image: url(/images/fondo.png);
+    background-image: url(images/fondo.png);
     background-size: cover;
     display: flex;
     flex-direction: column;
